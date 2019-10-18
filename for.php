@@ -8,11 +8,11 @@
     </head>
     <body>
         <?php
-        for ($i=0; $i <=100 ; $i++) { 
+        for ($i=0; $i <=100 ; ) { 
             if($i % 2 == 0){
-                continue;
+                echo $i."<br>";
             }
-            echo $i."<br>";
+            $i++
         }
 
         ?>

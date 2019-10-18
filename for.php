@@ -7,14 +7,16 @@
         <title>Estrutura de Repetiçao</title>
     </head>
     <body>
+        
         <?php
-        for ($i=0; $i <=100 ; ) { 
-            if($i % 2 == 0){
-                echo $i."<br>";
-            }
-            $i++
+        
+        $cont=0;
+        while($cont<=100){
+     if($num%2==0){
+      echo "$cont";
+           }
+        $cont++;
         }
-
-        ?>
+    ?>
     </body>
 </html>
